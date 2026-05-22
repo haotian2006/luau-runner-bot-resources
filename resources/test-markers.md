@@ -19,3 +19,10 @@ Custom name
 --[[name: my custom name]]
 print("This code block has a custom name")
 ```
+
+#Header priority
+
+example
+```lua
+print("This code block is labeled based on the nearest header above it")
+```

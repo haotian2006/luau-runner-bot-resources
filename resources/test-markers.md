@@ -24,5 +24,5 @@ print("This code block has a custom name")
 
 example
 ```lua
-print("This code block is labeled based on the nearest header above it")
+print("This code block is labeled based on the nearest header above it and will not use `example`")
 ```

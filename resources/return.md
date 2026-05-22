@@ -29,9 +29,9 @@ function output_player_score(player)
     print(`Player score: {score}`)
 end
 
-print(output_player_score(nil)) -- does not print anything
-print(output_player_score({score = -5})) -- does not print anything
-print(output_player_score({score = 100})) -- prints "Player score: 100"
+output_player_score(nil) -- does not print anything
+output_player_score({score = -5}) -- does not print anything
+output_player_score({score = 100}) -- prints "Player score: 100"
 ```
 
 If we didn't use early `return`, we would have to nest the logic inside multiple `if` statements, which can quickly become hard to read and maintain if there are many conditions to check.

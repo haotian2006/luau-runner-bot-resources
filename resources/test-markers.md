@@ -1,0 +1,15 @@
+example - Hide code between `--[[NO_SHOW]]` and `--[[END]]` markers in the output.
+```lua
+--[[NO_SHOW]]
+local a = 1
+--[[END]]
+print(a)
+--[[NO_SHOW]]
+print(a+1)
+--[[END]]
+```
+Output - this should not show up in docs or be a button.
+```lua
+--[[NO_EXECUTE]]
+print(a)
+```

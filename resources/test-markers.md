@@ -13,3 +13,9 @@ Output - this should not show up in docs or be a button.
 --[[NO_EXECUTE]]
 print(a)
 ```
+
+Custom name
+```lua
+--[[name: my custom name]]
+print("This code block has a custom name")
+```

@@ -1,4 +1,4 @@
-example - Hide code between `--[[NO_SHOW]]` and `--[[END]]` markers in the output.
+example - Hide code between `-\-[[NO_SHOW]]` and `-\-[[END]]` markers in the output.
 ```lua
 --[[NO_SHOW]]
 local a = 1

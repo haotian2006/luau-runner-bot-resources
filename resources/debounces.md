@@ -39,8 +39,7 @@ Example 3 - Per-player debounce using a table:
 ```lua
 local debounces = {}
 --[[NO_SHOW]]
-_G.debounces =  _G.debounces or {}
-debounces = _G.debounces
+local button = discord.button("Click me")
 --[[END]]
 local function onActivated(player)
     if debounces[player] then 
@@ -55,9 +54,10 @@ local function onActivated(player)
 
     debounces[player] = false
 end
---[[NO_SHOW]]
-onActivated(user.Name)
---[[END]]
+
+button.Clicked:Connect(function(userId, username)
+    onActivated(username)
+end)
 ```
 
 A single `boolean` debounce blocks *all* players. Using a table keyed by player gives each player their own independent cooldown.

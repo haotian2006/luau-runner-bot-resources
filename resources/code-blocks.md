@@ -1,6 +1,7 @@
 For sending a code block
 
 ```lua
+--[[NO_EXECUTE]]
 print("hello world!")
 ```
 

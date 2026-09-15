@@ -1,3 +1,7 @@
+This is an test file for how tags will be displayed. If you want to help contribute visit
+ https://github.com/haotian2006/luau-runner-bot-resources
+
+
 example - Hide code between `-\-[[NO_SHOW]]` and `-\-[[END]]` markers in the output.
 ```lua
 --[[NO_SHOW]]

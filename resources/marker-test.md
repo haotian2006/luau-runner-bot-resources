@@ -1,4 +1,4 @@
-This is an test file for how tags will be displayed. If you want to help contribute visit
+This is an test file for how tags will be displayed. If you want to help contribute by fixing typos or adding your own resources visit
  https://github.com/haotian2006/luau-runner-bot-resources
 
 
